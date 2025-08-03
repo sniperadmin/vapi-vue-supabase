@@ -1,0 +1,21 @@
+{
+  "name": "vue-supabase-vapi-app",
+  "version": "1.0.0",
+  "description": "Vue app with Supabase authentication and VAPI voice integration",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "@vapi-ai/web": "^1.4.2",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
+  }
+}
